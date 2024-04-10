@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "KCC-Hanbit";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "KCC-Hanbit", cursive;
+}
+
+#profile {
+  margin: 15px;
+  padding: 25px;
+  width: 300px;
+  border: rgb(255, 136, 156) solid 3px;
+  border-radius: 15px;
+  background: rgb(255, 246, 247);
+  box-shadow: 15px 15px 0 rgb(255, 188, 200);
+
+  text-align: center;
+  color: rgb(113, 20, 56);
+}
+#profile > img {
+  border-radius: 15px;
+  border: rgb(255, 182, 182) solid 3px;
+}
+
+.style {
+  margin: 15px;
+  width: 700px;
+  border: rgb(255, 136, 156) solid 3px;
+  border-radius: 15px;
+  color: rgb(113, 20, 56);
+  box-shadow: 15px 15px 0 rgb(255, 188, 200);
+}
+
+a :hover {
+  opacity: 70%;
+  transition: 200ms;
+}
+
+a:active {
+  opacity: 20%;
+}
+
+#left {
+  display: flex;
+  justify-content: left;
+}
